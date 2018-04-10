@@ -1,16 +1,16 @@
-.parent-flex-container{
-    display: flex; /* 1 */
-        flex-direction: row; /* 2 */    height: 300px;
+.flex-parent{
     background: blue;
-    flex-wrap: wrap;
+    display: flex; /* 1 */
+    flex-direction: row; /* 2 */    
+    flex-wrap: wrap; /* 2 */
+    height: 300px;
     justify-content: space-around; /* 3 */
 }
 .flex-child{
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  background: yellow;
-  font-size: 85px;
-  text-align: center;
-  color: red;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background: white;
+    font-size: 85px;
+    text-align: center;
 }
