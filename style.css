@@ -1,0 +1,16 @@
+.parent-flex-container{
+    display: flex; /* 1 */
+        flex-direction: row; /* 2 */    height: 300px;
+    background: blue;
+    flex-wrap: wrap;
+    justify-content: space-around; /* 3 */
+}
+.flex-child{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background: yellow;
+  font-size: 85px;
+  text-align: center;
+  color: red;
+}
