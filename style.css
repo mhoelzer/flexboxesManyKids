@@ -9,7 +9,7 @@
 .flex-child{
     width: 100px;
     height: 100px;
-    margin: auto;
+    margin-top: 100px;
     background: yellow;
     color: red;
     font-size: 85px;
